@@ -146,7 +146,7 @@ SERVER_HOST=0.0.0.0
 SERVER_PORT=8000
 
 # CORS 配置
-CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+CORS_ORIGINS=http://localhost:80,http://localhost:3000
 ```
 
 ## 开发说明
@@ -170,7 +170,7 @@ CORS_ORIGINS=http://localhost:5173,http://localhost:3000
 
 ## 注意事项
 
-- 确保前端服务运行在 http://localhost:5173
+- 确保前端服务运行在 http://localhost:80
 - 默认管理员账号：admin/admin123
 - 借码功能需要管理员审批
 - WebSocket 连接需要有效的 JWT token
